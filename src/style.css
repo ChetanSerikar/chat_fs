@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Blinker&family=Montserrat&family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+body {
+  background: #050505;
+}
+
+.footer {
+  margin: 30px auto;
+  max-width: 1100px;
+  padding: 0 19px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .logo {
+  font-weight: bolder;
+  font-weight: 1000;
+  color: #F3AE9F;
+}
+.footer img {
+  width: 50px;
+}
+
+.navbar .container {
+  background-color: #050505;
+  border-radius: 20px;
+  margin: 30px auto;
+  max-width: 1100px;
+  padding: 0 19px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.navbar .container a {
+  text-decoration: none;
+  color: white;
+}
+.navbar .container a:hover {
+  color: #F3AE9F;
+}
+.navbar .container .links {
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+}
+.navbar .container .links img {
+  width: 14px;
+}
+.navbar .container .links .logo {
+  display: flex;
+  gap: 20px;
+}
+.navbar .container .links .logo .logo1 {
+  font-weight: bolder;
+  font-weight: 1000;
+  color: #F3AE9F;
+}
+.navbar .container .login {
+  background: #F3AE9F;
+  width: 80px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  color: #050505;
+}
+.navbar .container .login a {
+  color: #050505;
+  font-size: 14px;
+  font-weight: bold;
+}
+.navbar .container .toggle_btn {
+  color: white;
+  display: none;
+}
+
+.home .container {
+  margin: 30px auto;
+  max-width: 1100px;
+  padding: 0 19px;
+  background-color: rgb(0, 0, 0);
+  height: 80vh;
+}
+.home .container .home_container {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.home .container .home_container .bots {
+  flex: 1;
+  height: 70vh;
+  border-radius: 5px;
+  background: #181818;
+}
+.home .container .home_container .bots .title {
+  font-size: 16px;
+  text-align: start;
+  margin: 10px 20px;
+  color: #ffffff;
+}
+.home .container .home_container .bots .chat_image {
+  margin: 10px 20px;
+}
+.home .container .home_container .bots .chat_image .c {
+  font-size: 14px;
+  border-radius: 5px;
+  background: #F3AE9F;
+  padding: 5px 30px;
+  font-weight: 500;
+}
+.home .container .home_container .bots .chat_image .c img {
+  width: 14px;
+}
+.home .container .home_container .bots .p {
+  font-size: 12px;
+  color: white;
+  margin: 20px;
+  line-height: normal;
+  text-align: left;
+}
+.home .container .home_container .bots .users {
+  color: #ffffff;
+  margin: 10px 20px;
+}
+.home .container .home_container .bots .users .bot {
+  align-items: start;
+  line-height: 50px;
+}
+.home .container .home_container .bots .users .bot a {
+  text-decoration: none;
+}
+.home .container .home_container .bots .users .bot .line {
+  color: #2F2F2F;
+}
+.home .container .home_container .bots .users .bot .user {
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  margin-left: 10px;
+  line-height: normal;
+  margin-bottom: 10px;
+  gap: 5px;
+}
+.home .container .home_container .bots .users .bot .user .username {
+  color: white;
+}
+.home .container .home_container .bots .users .bot .user .username .last_text {
+  font-size: 10px;
+  color: #7F8781;
+  text-align: start;
+  padding-left: 5px;
+}
+.home .container .home_container .bots .users .bot .user img {
+  width: 30px;
+  border-radius: 15px;
+}
+.home .container .home_container .bots .users .bot :hover {
+  background: #2F2F2F;
+  border-radius: 30px;
+}
+.home .container .home_container .bots .add {
+  font-size: 14px;
+  color: #ffffff;
+  text-align: left;
+  margin: 10px 20px;
+}
+.home .container .home_container .bots .add img {
+  width: 12px;
+  margin-right: 10px;
+}
+.home .container .home_container .chats {
+  flex: 2;
+  background-color: #fff;
+  border-radius: 5px;
+  background: #181818;
+  height: 70vh;
+}
+.home .container .home_container .chats .chat_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+.home .container .home_container .chats .chat_container .chatbar {
+  background: #2F2F2F;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+.home .container .home_container .chats .chat_container .chatbar .chartbar_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  overflow: hidden;
+}
+.home .container .home_container .chats .chat_container .chatbar .chartbar_container .user {
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  margin-left: 10px;
+  gap: 10px;
+}
+.home .container .home_container .chats .chat_container .chatbar .chartbar_container .user .username {
+  color: white;
+}
+.home .container .home_container .chats .chat_container .chatbar .chartbar_container .user img {
+  width: 25px;
+  border-radius: 15px;
+}
+.home .container .home_container .chats .chat_container .chatbar .chartbar_container .buttons {
+  display: flex;
+  font-size: 12px;
+  color: #ffffff;
+  gap: 10px;
+  margin-right: 10px;
+}
+.home .container .home_container .chats .chat_container .chatbar .chartbar_container .buttons img {
+  width: 11px;
+  margin-right: 8px;
+}
+.home .container .home_container .chats .chat_container .chat {
+  flex: 1;
+  padding: 10px 10px;
+  width: 100%;
+}
+.home .container .home_container .chats .chat_container .chat .chat_container {
+  width: 100%;
+  justify-content: end;
+  height: 56vh;
+}
+.home .container .home_container .chats .chat_container .chat .chat_container .text {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 5px;
+  width: 100%;
+}
+.home .container .home_container .chats .chat_container .chat .chat_container .text img {
+  width: 25px;
+  border-radius: 15px;
+}
+.home .container .home_container .chats .chat_container .chat .chat_container .text .text_back {
+  padding: 5px 10px;
+  font-size: 10px;
+  background-color: #F3AE9F;
+  text-align: center;
+  border-radius: 10px 10px 10px 0;
+}
+.home .container .home_container .chats .chat_container .chat .chat_container .text1 {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  color: #ffffff;
+}
+.home .container .home_container .chats .chat_container .chat .chat_container .text1 img {
+  width: 25px;
+  border-radius: 15px;
+}
+.home .container .home_container .chats .chat_container .chat .chat_container .text1 .text_back1 {
+  padding: 5px 10px;
+  font-size: 10px;
+  background-color: #2F2F2F;
+  text-align: center;
+  border-radius: 10px 10px 10px 0;
+}
+.home .container .home_container .chats .chat_container .send {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.home .container .home_container .chats .chat_container .send .send_container {
+  display: flex;
+  margin: 0 10px;
+  margin-bottom: 20px;
+  gap: 10px;
+  justify-content: center;
+}
+.home .container .home_container .chats .chat_container .send .send_container .input {
+  flex: 2;
+  background: #2F2F2F;
+  border-style: none;
+  height: 25px;
+  border-radius: 10px;
+}
+.home .container .home_container .chats .chat_container .send .send_container .enter {
+  background: #F3AE9F;
+  height: 25px;
+  width: 25px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .container .home_container .chats .chat_container .send .send_container .enter img {
+  width: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile_chats {
+    display: none;
+  }
+  .mobile_bots {
+    display: none;
+  }
+  .navbar img {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
